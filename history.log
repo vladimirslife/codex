@@ -19,3 +19,6 @@
 [2025-07-11 15:13:27] Wave7 | cum4_lt_-1bp | Sharpe=0.538 | Trades=1174
 [2025-07-11 15:13:27] Wave7 | cum3_lt_-1bp | Sharpe=0.465 | Trades=1123
 [2025-07-11 15:13:27] Wave7 | cum6_lt_-1bp | Sharpe=0.461 | Trades=1229
+[2025-07-11 15:14:27] Wave8 | close_lt_clomin5_m010 | Sharpe=0.704 | Trades=2117
+[2025-07-11 15:14:27] Wave8 | close_lt_clomin5_m005 | Sharpe=0.696 | Trades=1516
+[2025-07-11 15:14:27] Wave8 | open_lt_clomin5_m010 | Sharpe=0.648 | Trades=1971
