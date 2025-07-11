@@ -1,0 +1,370 @@
+=== ИСТОРИЯ ЛУЧШИХ РЕЗУЛЬТАТОВ ===
+
+WAVE 1 - Топ 3 результата:
+
+1. Условие: overnight_return > 0
+   (Покупаем, если предыдущая ночная доходность положительная)
+   Sharpe Ratio: 0.2607
+   CAGR: 3.58%
+   Количество сделок: 2471
+
+2. Условие: overnight_return < -0.001  
+   (Покупаем, если предыдущая ночная доходность меньше -0.1%)
+   Sharpe Ratio: 0.1806
+   CAGR: 3.03%
+   Количество сделок: 1525
+
+3. Условие: -0.001 < overnight_return < 0.001
+   (Покупаем, если предыдущая ночная доходность в диапазоне от -0.1% до 0.1%)
+   Sharpe Ratio: 0.1650
+   CAGR: 2.53%
+   Количество сделок: 1061
+
+---
+
+WAVE 2 - Топ 3 результата:
+
+1. Условие: overnight_return > -0.0100
+   (Покупаем, если предыдущая ночная доходность больше -1%)
+   Sharpe Ratio: 0.6720
+   CAGR: 7.82%
+   Количество сделок: 4367
+
+2. Условие: overnight_return > -0.0095
+   (Покупаем, если предыдущая ночная доходность больше -0.95%)
+   Sharpe Ratio: 0.6452
+   CAGR: 7.54%
+   Количество сделок: 4350
+
+3. Условие: overnight_return > -0.0080
+   (Покупаем, если предыдущая ночная доходность больше -0.8%)
+   Sharpe Ratio: 0.6406
+   CAGR: 7.43%
+   Количество сделок: 4286
+
+---
+
+WAVE 3 - Топ 3 результата:
+
+1. Условие: overnight_return_sum2 > -0.0150
+   (Покупаем, если сумма двух последних ночных доходностей больше -1.5%)
+   Sharpe Ratio: 0.7839
+   CAGR: 8.99%
+   Количество сделок: 4402
+
+2. Условие: overnight_return_std3 < 0.0050
+   (Покупаем, если стандартное отклонение ночной доходности за 3 дня меньше 0.5%)
+   Sharpe Ratio: 0.7573
+   CAGR: 6.45%
+   Количество сделок: 3214
+
+3. Условие: overnight_return_sum2 > -0.0200
+   (Покупаем, если сумма двух последних ночных доходностей больше -2%)
+   Sharpe Ratio: 0.7341
+   CAGR: 8.70%
+   Количество сделок: 4464
+
+---
+
+WAVE 4 - Топ 3 результата:
+
+1. Условие: overnight_return_squared < 0.00010
+   (Покупаем, если квадрат предыдущей ночной доходности меньше 0.01%, т.е. низкая волатильность)
+   Sharpe Ratio: 0.7856
+   CAGR: 8.24%
+   Количество сделок: 4207
+
+2. Условие: overnight_return_ema5 > -0.0100
+   (Покупаем, если экспоненциальное среднее ночной доходности за 5 дней больше -1%)
+   Sharpe Ratio: 0.7747
+   CAGR: 9.25%
+   Количество сделок: 4507
+
+3. Условие: total_daily_return > -0.0200
+   (Покупаем, если общая дневная доходность предыдущего дня больше -2%)
+   Sharpe Ratio: 0.7562
+   CAGR: 8.18%
+   Количество сделок: 4220
+
+---
+
+WAVE 5 - Топ 3 результата:
+
+1. Условие: spy_overnight > -0.0100
+   (Покупаем, если предыдущая ночная доходность SPY больше -1%)
+   Sharpe Ratio: 0.7165
+   CAGR: 8.34%
+   Количество сделок: 4406
+
+2. Условие: spy_overnight > -0.0080
+   (Покупаем, если предыдущая ночная доходность SPY больше -0.8%)
+   Sharpe Ratio: 0.6880
+   CAGR: 7.99%
+   Количество сделок: 4349
+
+3. Условие: min_overnight > -0.0150
+   (Покупаем, если минимальная ночная доходность среди QQQ/SPY/XLK больше -1.5%)
+   Sharpe Ratio: 0.6877
+   CAGR: 7.99%
+   Количество сделок: 4372
+
+---
+
+WAVE 6 - Топ 3 результата:
+
+1. Условие: exp(overnight*10) > 0.9
+   (Покупаем, если exp(предыдущая ночная доходность * 10) > 0.9)
+   Sharpe Ratio: 0.7011
+   CAGR: 8.10%
+   Количество сделок: 4381
+
+2. Условие: consecutive_sign > -3
+   (Покупаем, если не было 3 подряд отрицательных ночных доходностей)
+   Sharpe Ratio: 0.6996
+   CAGR: 8.35%
+   Количество сделок: 4181
+
+3. Условие: log_overnight > -0.0100
+   (Покупаем, если логарифм предыдущей ночной доходности больше -1%)
+   Sharpe Ratio: 0.6776
+   CAGR: 7.87%
+   Количество сделок: 4368
+
+---
+
+WAVE 7 - Топ 3 результата:
+
+1. Условие: overnight_squared_ma5 < 0.00015
+   (Покупаем, если скользящее среднее квадрата ночной доходности за 5 дней меньше 0.015%)
+   Sharpe Ratio: 0.8450
+   CAGR: 8.94%
+   Количество сделок: 4318
+
+2. Условие: overnight_squared_max5 < 0.00030
+   (Покупаем, если максимум квадрата ночной доходности за 5 дней меньше 0.03%)
+   Sharpe Ratio: 0.8207
+   CAGR: 8.44%
+   Количество сделок: 4198
+
+3. Условие: overnight_squared_max5 < 0.00020
+   (Покупаем, если максимум квадрата ночной доходности за 5 дней меньше 0.02%)
+   Sharpe Ratio: 0.8099
+   CAGR: 7.94%
+   Количество сделок: 3977
+
+---
+
+WAVE 8 - Топ 3 результата:
+
+1. Условие: overnight_squared_ma5 < 0.00015
+   (Покупаем, если скользящее среднее квадрата ночной доходности за 5 дней меньше 0.015%)
+   Sharpe Ratio: 0.8450
+   CAGR: 8.94%
+   Количество сделок: 4318
+
+2. Условие: overnight_squared_max7 < 0.00030
+   (Покупаем, если максимум квадрата ночной доходности за 7 дней меньше 0.03%)
+   Sharpe Ratio: 0.8434
+   CAGR: 8.48%
+   Количество сделок: 4112
+
+3. Условие: overnight_squared_max6 < 0.00030
+   (Покупаем, если максимум квадрата ночной доходности за 6 дней меньше 0.03%)
+   Sharpe Ratio: 0.8392
+   CAGR: 8.51%
+   Количество сделок: 4154
+
+---
+
+WAVE 9 - Топ 3 результата:
+
+1. Условие: squared<0.0001 & squared_ma5<0.00015
+   (Покупаем, если квадрат ночной доходности < 0.01% И скользящее среднее квадрата за 5 дней < 0.015%)
+   Sharpe Ratio: 0.8497
+   CAGR: 8.52%
+   Количество сделок: 4112
+
+2. Условие: squared_ma5<0.00015 & squared_max5<0.0003
+   (Покупаем, если MA5 квадрата < 0.015% И максимум квадрата за 5 дней < 0.03%)
+   Sharpe Ratio: 0.8264
+   CAGR: 8.49%
+   Количество сделок: 4196
+
+3. Условие: squared_ma5<0.00015 & overnight>-0.005
+   (Покупаем, если MA5 квадрата < 0.015% И ночная доходность > -0.5%)
+   Sharpe Ratio: 0.7041
+   CAGR: 7.14%
+   Количество сделок: 3888
+
+---
+
+WAVE 10 - Топ 3 результата:
+
+1. Условие: squared<0.000096 & ma5<0.000148
+   (Покупаем, если квадрат < 0.0096% И MA5 квадрата < 0.0148%)
+   Sharpe Ratio: 0.8292
+   CAGR: 8.33%
+   Количество сделок: 4095
+
+2. Условие: squared<0.000098 & ma5<0.000148
+   (Покупаем, если квадрат < 0.0098% И MA5 квадрата < 0.0148%)
+   Sharpe Ratio: 0.8180
+   CAGR: 8.24%
+   Количество сделок: 4103
+
+3. Условие: overnight_squared_ma6 < 0.00015
+   (Покупаем, если скользящее среднее квадрата за 6 дней < 0.015%)
+   Sharpe Ratio: 0.8157
+   CAGR: 8.68%
+   Количество сделок: 4330
+
+---
+
+WAVE 11 - Лучший результат:
+1. Условие: overnight_squared_wma5 < 0.00014
+   (Взвешенное скользящее среднее квадрата за 5 дней < 0.014%)
+   Sharpe Ratio: 0.8063
+   CAGR: 8.47%
+   Количество сделок: 4298
+
+WAVE 12 - Лучший результат:
+1. Условие: calm_days_5 >= 4
+   (Покупаем, если 4 или более из последних 5 дней были "спокойными" с квадратом < 0.01%)
+   Sharpe Ratio: 0.8242
+   CAGR: 8.38%
+   Количество сделок: 4174
+
+---
+
+WAVE 13 - Топ 3 результата:
+
+1. Условие: calm_days_exp > 0.5
+   (Покупаем, если экспоненциально взвешенный индикатор спокойных дней > 0.5)
+   Sharpe Ratio: 0.8649
+   CAGR: 9.24%
+   Количество сделок: 4379
+
+2. Условие: calm_days_7 >= 5
+   (Покупаем, если 5 или более из последних 7 дней были спокойными)
+   Sharpe Ratio: 0.8616
+   CAGR: 8.93%
+   Количество сделок: 4275
+
+3. Условие: calm_days_exp > 0.6
+   (Покупаем, если экспоненциально взвешенный индикатор спокойных дней > 0.6)
+   Sharpe Ratio: 0.8480
+   CAGR: 8.92%
+   Количество сделок: 4313
+
+---
+
+ОБЩИЙ ПРОГРЕСС:
+- Начальный лучший результат (Wave 1): Sharpe 0.2607
+- Текущий лучший результат (Wave 13): Sharpe 0.8649 (условие: calm_days_exp > 0.5)
+- Требуется достичь: Sharpe ≥ 1.4 с количеством сделок > 2500
+- Прогресс: 61.8% от цели (0.8649 / 1.4)
+
+=== WAVE 14: Alpha optimization & High-Low range ===
+Date: 2024-01-20
+Best results:
+1. hl_range_ma5 < 0.025                - Sharpe: 0.8843, Trades: 3800
+2. calm_double_exp > 0.6               - Sharpe: 0.8820, Trades: 4291
+3. calm_exp_a0.4 > 0.5                 - Sharpe: 0.8804, Trades: 4359
+4. calm_exp_a0.3 > 0.5                 - Sharpe: 0.8649, Trades: 4379
+5. true_range_ma5 < 0.025              - Sharpe: 0.8617, Trades: 3736
+
+Key findings:
+- High-Low range MA is a strong volatility indicator
+- Double exponential smoothing shows promise
+- Optimal alpha for exponential weighting appears to be 0.3-0.4
+- True Range also works well as volatility measure
+
+=== WAVE 15: Advanced volatility measures ===
+Date: 2024-01-20
+Best results:
+1. hl_range_ewm < 0.025                - Sharpe: 0.9261, Trades: 3789 ⭐ NEW BEST!
+2. parkinson_vol_ma5 < 0.015           - Sharpe: 0.8980, Trades: 3790
+3. atr_ma14 < 0.030                    - Sharpe: 0.8573, Trades: 4093
+4. combined_vol_ma5 < 0.025            - Sharpe: 0.8498, Trades: 3730
+5. gk_vol_ma5 < 0.015                  - Sharpe: 0.8386, Trades: 3763
+
+Key findings:
+- Exponentially weighted H-L range is the strongest indicator yet
+- Parkinson volatility also performs very well
+- ATR with 14-day MA shows good results
+- Progress: 66.1% of target (0.9261 / 1.4)
+
+=== WAVE 16: Advanced statistical measures & cross-ticker ===
+Date: 2024-01-20
+Best results:
+1. avg_hl_range_ma5 < 0.025            - Sharpe: 0.9472, Trades: 3925 ⭐ NEW BEST!
+2. avg_hl_range_ma5 < 0.020            - Sharpe: 0.8858, Trades: 3455
+3. beta_adj_vol_ma5 < 0.020            - Sharpe: 0.8256, Trades: 4171
+4. beta_adj_vol_ma5 < 0.030            - Sharpe: 0.8006, Trades: 4382
+5. beta_adj_vol_ma5 < 0.025            - Sharpe: 0.8000, Trades: 4330
+
+Key findings:
+- Cross-ticker average volatility is the strongest indicator
+- Beta-adjusted volatility also performs well
+- Market-wide measures outperform single-ticker measures
+- Progress: 67.7% of target (0.9472 / 1.4)
+
+=== WAVE 17: Non-linear transformations ===
+Date: 2024-01-20
+Best results:
+1. geom_mean_vol_ma5 < 0.025           - Sharpe: 0.9680, Trades: 3961 ⭐ NEW BEST!
+2. vol_pc1_ma5 < 0.5                   - Sharpe: 0.9561, Trades: 3832
+3. avg_hl_range_sqrt_ma5 < 0.16        - Sharpe: 0.9417, Trades: 4029
+4. harm_mean_vol_ma5 < 0.020           - Sharpe: 0.9300, Trades: 3533
+5. min_vol < 0.025                     - Sharpe: 0.9202, Trades: 4124
+
+Key findings:
+- Geometric mean of cross-ticker volatility is the strongest indicator
+- Principal component analysis shows promise
+- Non-linear transformations (sqrt, harmonic mean) improve performance
+- Progress: 69.1% of target (0.9680 / 1.4)
+
+=== WAVE 18: Optimal combinations & adaptive thresholds ===
+Date: 2024-01-20
+Best results:
+1. mvp_vol_ma5 < 0.024                 - Sharpe: 0.9558, Trades: 3919
+2. weighted_geom_vol_ma5 < 0.020       - Sharpe: 0.9405, Trades: 3499
+3. copula_dependence_ma5 < 0.5         - Sharpe: 0.9263, Trades: 3848
+4. mvp_vol_ma5 < 0.020                 - Sharpe: 0.9168, Trades: 3545
+5. vol_winsorized_ma5 < 0.022          - Sharpe: 0.9045, Trades: 3569
+
+Key findings:
+- Minimum variance portfolio approach shows promise
+- Robust statistical measures (winsorized mean) perform well
+- Still below Wave 17's best result
+- Progress: 68.3% of target (0.9558 / 1.4) - slightly worse than Wave 17
+
+=== FINAL SUMMARY ===
+Date: 2024-01-20
+Total waves tested: 18
+Starting Sharpe Ratio: 0.2607 (Wave 1)
+Best Sharpe Ratio: 0.9680 (Wave 17)
+Improvement: 271%
+
+BEST OVERALL STRATEGY:
+Condition: geom_mean_vol_ma5 < 0.025
+Sharpe Ratio: 0.9680
+CAGR: 8.68%
+Trades: 3961
+Description: Geometric mean of volatility across QQQ, SPY, and XLK
+
+Top 5 strategies:
+1. geom_mean_vol_ma5 < 0.025          - Sharpe: 0.9680 (Wave 17)
+2. vol_pc1_ma5 < 0.5                  - Sharpe: 0.9561 (Wave 17)
+3. mvp_vol_ma5 < 0.024                - Sharpe: 0.9558 (Wave 18)
+4. avg_hl_range_ma5 < 0.025           - Sharpe: 0.9472 (Wave 16)
+5. avg_hl_range_sqrt_ma5 < 0.16       - Sharpe: 0.9417 (Wave 17)
+
+Key insights:
+- Cross-ticker volatility measures are strongest
+- Low volatility persistence is the key pattern
+- High-Low range outperforms overnight returns
+- Non-linear transformations improve results
+- Single condition constraint limits achievable Sharpe
+
+Target achievement: 69.1% (0.9680 / 1.4)
