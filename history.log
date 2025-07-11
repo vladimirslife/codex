@@ -46,3 +46,6 @@ Wave15 | Condition: VWMA_DEV | Params: {'period': 200, 'k': 0.01} | Sharpe: 0.83
 Wave16 | Condition: VWAP_TREND | Params: {'period': 200, 'k': -0.01} | Sharpe: 0.920 | Trades: 6355 | TotalRet: 1284.57%
 Wave16 | Condition: VWAP_TREND | Params: {'period': 200, 'k': 0.0} | Sharpe: 0.845 | Trades: 6086 | TotalRet: 988.10%
 Wave16 | Condition: VWAP_TREND | Params: {'period': 200, 'k': 0.005} | Sharpe: 0.836 | Trades: 5924 | TotalRet: 928.48%
+Wave17 | Condition: VWAP_ANCHORED | Params: {'anchor': 200, 'k': -0.015} | Sharpe: 0.926 | Trades: 6493 | TotalRet: 1371.21%
+Wave17 | Condition: VWAP_ANCHORED | Params: {'anchor': 200, 'k': -0.01} | Sharpe: 0.918 | Trades: 6351 | TotalRet: 1278.10%
+Wave17 | Condition: VWAP_ANCHORED | Params: {'anchor': 150, 'k': -0.015} | Sharpe: 0.901 | Trades: 6558 | TotalRet: 1279.56%
