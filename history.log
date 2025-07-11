@@ -107,3 +107,13 @@ Wave23 | Condition: ADAPTIVE_ROC | Params: {'base_period': 100, 'k': 0.0} | Shar
 Wave23 | Condition: ENH_VOL_ADJ_V1 | Params: {'trend_period': 130, 'vol_period': 45, 'k': 0.0} | Sharpe: 1.025 | Trades: 5232 | TotalRet: 1235.02%
 Wave23 | Condition: ENH_VOL_ADJ_V1 | Params: {'trend_period': 140, 'vol_period': 45, 'k': 0.0} | Sharpe: 1.024 | Trades: 5254 | TotalRet: 1238.11%
 Wave23 | Condition: ENH_VOL_ADJ_V2 | Params: {'trend_period': 130, 'vol_period': 45, 'k': 0.0} | Sharpe: 1.022 | Trades: 5250 | TotalRet: 1229.73%
+
+--- Wave24 ---
+Wave24 | Condition: NONLINEAR_VOL_ADJ | Params: {'trend_period': 130, 'vol_period': 45, 'k': 0.0} | Sharpe: 1.022 | Trades: 5250 | TotalRet: 1229.73%
+Wave24 | Condition: NONLINEAR_VOL_ADJ | Params: {'trend_period': 140, 'vol_period': 45, 'k': 0.0} | Sharpe: 1.013 | Trades: 5276 | TotalRet: 1209.37%
+Wave24 | Condition: NONLINEAR_VOL_ADJ | Params: {'trend_period': 130, 'vol_period': 40, 'k': 0.0} | Sharpe: 0.982 | Trades: 5241 | TotalRet: 1128.68%
+
+--- Wave24 Enhanced ---
+Wave24 Enhanced | Condition: ULTRA_NONLINEAR | Params: {'trend_period': 130, 'vol_period': 45, 'k': 0.0} | Sharpe: 1.025 | Trades: 5232 | TotalRet: 1235.02%
+Wave24 Enhanced | Condition: ULTRA_NONLINEAR | Params: {'trend_period': 140, 'vol_period': 45, 'k': 0.0} | Sharpe: 1.024 | Trades: 5254 | TotalRet: 1238.11%
+Wave24 Enhanced | Condition: FRACTAL_DIM | Params: {'trend_period': 130, 'vol_period': 45, 'k': 0.0} | Sharpe: 1.022 | Trades: 5250 | TotalRet: 1229.73%
