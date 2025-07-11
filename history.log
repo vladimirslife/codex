@@ -77,3 +77,13 @@ Wave21_v2 | Condition: VOL_ADJ_TREND | Params: {'trend_period': 150, 'vol_period
 Wave21_v3 | Condition: VOL_ADJ_TREND_V1 | Params: {'trend_period': 150, 'vol_period': 40, 'k': 0.0} | Sharpe: 0.978 | Trades: 5254 | TotalRet: 1161.60%
 Wave21_v3 | Condition: VOL_ADJ_TREND_V3 | Params: {'trend_period': 150, 'vol_period': 40, 'k': 0.0} | Sharpe: 0.978 | Trades: 5254 | TotalRet: 1161.60%
 Wave21_v3 | Condition: VOL_ADJ_TREND_V4 | Params: {'trend_period': 150, 'vol_period': 40, 'k': 0.0} | Sharpe: 0.978 | Trades: 5254 | TotalRet: 1161.60%
+
+--- Wave21_v4 ---
+Wave21_v4 | Condition: ADAPT_TREND_MOM | Params: {'base_period': 50, 'adapt_factor': 0.5, 'k': 0.0} | Sharpe: 0.811 | Trades: 5685 | TotalRet: 986.22%
+Wave21_v4 | Condition: VOL_WGT_MOM_DYN | Params: {'min_period': 20, 'max_period': 150, 'k': -0.5} | Sharpe: 0.783 | Trades: 6140 | TotalRet: 898.46%
+Wave21_v4 | Condition: ADAPT_TREND_MOM | Params: {'base_period': 50, 'adapt_factor': 1.0, 'k': 0.0} | Sharpe: 0.774 | Trades: 5889 | TotalRet: 1046.83%
+
+--- Wave21_v5_simplified ---
+Wave21_v5_simp | Params: {'trend_period': 140, 'vol_period': 45, 'threshold': 0.0, 'enhancement': 'standard'} | Sharpe: 1.013 | Trades: 5276 | TotalRet: 1209.37%
+Wave21_v5_simp | Params: {'trend_period': 140, 'vol_period': 45, 'threshold': 0.0, 'enhancement': 'squared'} | Sharpe: 1.013 | Trades: 5276 | TotalRet: 1209.37%
+Wave21_v5_simp | Params: {'trend_period': 140, 'vol_period': 45, 'threshold': 0.0, 'enhancement': 'adaptive'} | Sharpe: 1.013 | Trades: 5276 | TotalRet: 1209.37%
