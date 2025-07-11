@@ -102,3 +102,8 @@ Wave22_Enh | Condition: VOL_ADJ_TREND_NORM | Params: {'trend_period': 140, 'vol_
 Wave23 | Condition: ADAPTIVE_ROC | Params: {'base_period': 100, 'k': 2.0} | Sharpe: 0.894 | Trades: 5320 | TotalRet: 917.40%
 Wave23 | Condition: ADAPTIVE_ROC | Params: {'base_period': 100, 'k': 1.0} | Sharpe: 0.880 | Trades: 5531 | TotalRet: 942.75%
 Wave23 | Condition: ADAPTIVE_ROC | Params: {'base_period': 100, 'k': 0.0} | Sharpe: 0.867 | Trades: 5730 | TotalRet: 1009.05%
+
+--- Wave23 ---
+Wave23 | Condition: ENH_VOL_ADJ_V1 | Params: {'trend_period': 130, 'vol_period': 45, 'k': 0.0} | Sharpe: 1.025 | Trades: 5232 | TotalRet: 1235.02%
+Wave23 | Condition: ENH_VOL_ADJ_V1 | Params: {'trend_period': 140, 'vol_period': 45, 'k': 0.0} | Sharpe: 1.024 | Trades: 5254 | TotalRet: 1238.11%
+Wave23 | Condition: ENH_VOL_ADJ_V2 | Params: {'trend_period': 130, 'vol_period': 45, 'k': 0.0} | Sharpe: 1.022 | Trades: 5250 | TotalRet: 1229.73%
