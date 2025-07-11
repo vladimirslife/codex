@@ -10,3 +10,6 @@
 [2025-07-11 15:09:26] Wave4 | gap_norm10_lt_-0.00 | Sharpe=1.006 | Trades=1991
 [2025-07-11 15:09:26] Wave4 | gap_norm5_lt_-0.00 | Sharpe=1.001 | Trades=1992
 [2025-07-11 15:09:26] Wave4 | close_gt_q70_100 | Sharpe=0.659 | Trades=2735
+[2025-07-11 15:10:34] Wave5 | gap_norm10_lt_-0.00 | Sharpe=1.006 | Trades=1991
+[2025-07-11 15:10:34] Wave5 | gap_norm5_lt_-0.00 | Sharpe=1.001 | Trades=1992
+[2025-07-11 15:10:34] Wave5 | gap_norm5_lt_-0.05 | Sharpe=0.962 | Trades=1660
