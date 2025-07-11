@@ -13,3 +13,6 @@ Wave4 | Condition: EMA_GAP | Params: {'short': 30, 'long': 150, 'delta': 0.005} 
 Wave5 | Condition: EMA_GAP | Params: {'short': 25, 'long': 200, 'delta': 0.015} | Sharpe: 0.941 | Trades: 5590 | TotalRet: 1230.16%
 Wave5 | Condition: EMA_GAP | Params: {'short': 10, 'long': 200, 'delta': 0.015} | Sharpe: 0.904 | Trades: 5596 | TotalRet: 1031.42%
 Wave5 | Condition: EMA_GAP | Params: {'short': 25, 'long': 200, 'delta': 0.02} | Sharpe: 0.889 | Trades: 5296 | TotalRet: 1028.72%
+Wave6 | Condition: EMA_RATIO | Params: {'short': 20, 'long': 200, 'delta': 0.01} | Sharpe: 0.950 | Trades: 5855 | TotalRet: 1303.21%
+Wave6 | Condition: EMA_RATIO | Params: {'short': 15, 'long': 150, 'delta': 0.01} | Sharpe: 0.908 | Trades: 5527 | TotalRet: 1021.82%
+Wave6 | Condition: EMA_RATIO | Params: {'short': 10, 'long': 200, 'delta': 0.015} | Sharpe: 0.904 | Trades: 5596 | TotalRet: 1031.42%
