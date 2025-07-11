@@ -67,3 +67,13 @@ Wave22 | Condition: STRUCT_BREAK | Params: {'period': 50, 'k': 0.02} | Sharpe: 0
 Wave23 | Condition: PRICE_ACTION | Params: {'period': 20, 'k': 0.1} | Sharpe: 0.585 | Trades: 5657 | TotalRet: 953.33%
 Wave23 | Condition: PRICE_ACTION | Params: {'period': 10, 'k': 0.0} | Sharpe: 0.538 | Trades: 3348 | TotalRet: 558.29%
 Wave23 | Condition: PRICE_ACTION | Params: {'period': 10, 'k': 0.1} | Sharpe: 0.536 | Trades: 5274 | TotalRet: 750.43%
+
+--- Wave21_v2 ---
+Wave21_v2 | Condition: VOL_ADJ_TREND | Params: {'trend_period': 150, 'vol_period': 50, 'k': 0.0} | Sharpe: 0.957 | Trades: 5301 | TotalRet: 1120.53%
+Wave21_v2 | Condition: VOL_ADJ_TREND | Params: {'trend_period': 100, 'vol_period': 50, 'k': 0.0} | Sharpe: 0.929 | Trades: 5358 | TotalRet: 1062.62%
+Wave21_v2 | Condition: VOL_ADJ_TREND | Params: {'trend_period': 150, 'vol_period': 20, 'k': 0.0} | Sharpe: 0.875 | Trades: 5105 | TotalRet: 896.01%
+
+--- Wave21_v3 ---
+Wave21_v3 | Condition: VOL_ADJ_TREND_V1 | Params: {'trend_period': 150, 'vol_period': 40, 'k': 0.0} | Sharpe: 0.978 | Trades: 5254 | TotalRet: 1161.60%
+Wave21_v3 | Condition: VOL_ADJ_TREND_V3 | Params: {'trend_period': 150, 'vol_period': 40, 'k': 0.0} | Sharpe: 0.978 | Trades: 5254 | TotalRet: 1161.60%
+Wave21_v3 | Condition: VOL_ADJ_TREND_V4 | Params: {'trend_period': 150, 'vol_period': 40, 'k': 0.0} | Sharpe: 0.978 | Trades: 5254 | TotalRet: 1161.60%
