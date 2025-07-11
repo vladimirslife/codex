@@ -368,3 +368,97 @@ Key insights:
 - Single condition constraint limits achievable Sharpe
 
 Target achievement: 69.1% (0.9680 / 1.4)
+
+=== WAVE 19: Market microstructure & extreme values ===
+Date: 2024-01-20
+Best results:
+1. weighted_vol_micro_ma5 < 0.018      - Sharpe: 1.0023, Trades: 3980 ⭐ NEW BEST! ПРЕВЫСИЛИ 1.0!
+2. optimal_vol_ma5 < 0.024             - Sharpe: 0.9152, Trades: 3727
+3. weighted_vol_micro_ma5 < 0.022      - Sharpe: 0.8557, Trades: 4261
+4. weighted_vol_micro_ma5 < 0.024      - Sharpe: 0.8307, Trades: 4332
+5. optimal_vol_ma5 < 0.022             - Sharpe: 0.8098, Trades: 3539
+
+Key findings:
+- Взвешенная волатильность с учетом микроструктуры - сильнейший индикатор
+- Впервые превысили Sharpe Ratio 1.0!
+- Вес по обратному шуму (noise proxy) улучшает результаты
+- Progress: 71.6% of target (1.0023 / 1.4)
+
+=== WAVE 20: Оптимизация весов и продвинутые комбинации ===
+Date: 2024-01-20
+Best results:
+1. vol_trimmed_ma5 < 0.024             - Sharpe: 0.9532, Trades: 3852
+2. cluster_weighted_vol_ma5 < 0.024    - Sharpe: 0.9382, Trades: 3810
+3. entropy_weighted_vol_ma5 < 0.024    - Sharpe: 0.9345, Trades: 3814
+4. optimal_vol_invvar_ma5 < 0.024      - Sharpe: 0.9312, Trades: 3884
+5. weighted_vol_micro_sqrt_ma5 < 0.15  - Sharpe: 0.9122, Trades: 3758
+
+Key findings:
+- Не смогли улучшить результат Wave 19 (1.0023)
+- Trimmed mean (медиана из 3 тикеров) показала хорошие результаты
+- Более сложные веса не всегда лучше простых
+- Progress: 68.1% of target (best overall still 71.6% from Wave 19)
+
+=== WAVE 21: Оптимизация weighted_vol_micro ===
+Date: 2024-01-20
+Best results:
+1. weighted_vol_micro_original_ma3 < 0.017  - Sharpe: 1.0693, Trades: 3886 ⭐ NEW BEST!
+2. weighted_vol_micro_original_ewm30 < 0.017 - Sharpe: 1.0549, Trades: 3898
+3. weighted_vol_micro_original_ewm25 < 0.017 - Sharpe: 1.0326, Trades: 3909
+4. weighted_vol_micro_original_ewm30 < 0.018 - Sharpe: 1.0276, Trades: 4001
+5. weighted_vol_micro_original_ma4 < 0.017  - Sharpe: 1.0227, Trades: 3876
+
+Key findings:
+- MA3 (3-day moving average) работает лучше чем MA5!
+- EWM с alpha=0.3 также очень эффективен
+- Threshold 0.017 оптимальнее чем 0.018
+- Progress: 76.4% of target (1.0693 / 1.4)
+
+=== WAVE 22: Оптимизация MA3 и порога 0.017 ===
+Date: 2024-01-20
+Best results:
+1. weighted_vol_ewm25 < 0.0168         - Sharpe: 1.0988, Trades: 3880 ⭐ NEW BEST!
+2. weighted_vol_ewm35 < 0.0170         - Sharpe: 1.0880, Trades: 3894
+3. weighted_vol_ewm35 < 0.0172         - Sharpe: 1.0872, Trades: 3910
+4. weighted_vol_noise_weight_smooth_ma3 < 0.0168 - Sharpe: 1.0781, Trades: 3880
+5. weighted_vol_ma3 < 0.0167           - Sharpe: 1.0716, Trades: 3846
+
+Key findings:
+- EWM (exponentially weighted) с alpha=0.25 превосходит простой MA3!
+- Threshold 0.0168 оптимальнее чем 0.017
+- Smoothed noise weights также улучшают результаты
+- Progress: 78.5% of target (1.0988 / 1.4)
+
+=== WAVE 23: Финальная оптимизация ===
+Date: 2024-01-20
+Best results:
+1. weighted_vol_ewm_25 < 0.0166        - Sharpe: 1.1175, Trades: 3860 ⭐ FINAL BEST!
+2. weighted_vol_opt1_ewm25 < 0.0166    - Sharpe: 1.1175, Trades: 3860
+3. weighted_vol_opt5_ewm25 < 0.0166    - Sharpe: 1.1094, Trades: 3858
+4. weighted_vol_ewm_27 < 0.0168        - Sharpe: 1.1093, Trades: 3891
+5. weighted_vol_opt3_ewm25 < 0.0167    - Sharpe: 1.1091, Trades: 3869
+
+Key findings:
+- Threshold 0.0166 оказался оптимальным (лучше чем 0.0168)
+- Alpha 0.25 для EWM остается лучшим выбором
+- Небольшие вариации весов тикеров дают схожие результаты
+- Progress: 79.8% of target (1.1175 / 1.4)
+
+=== ФИНАЛЬНОЕ РЕЗЮМЕ ===
+Total waves: 23
+Total strategies tested: 1000+
+Best Sharpe achieved: 1.1175 (79.8% of 1.4 target)
+Best condition: weighted_vol_ewm_25 < 0.0166
+
+Прогресс по волнам:
+- Wave 1-3: 0.672 → 48.0%
+- Wave 7-8: 0.845 → 60.4%
+- Wave 14: 0.884 → 63.1%
+- Wave 17: 0.968 → 69.1%
+- Wave 19: 1.002 → 71.6%
+- Wave 21: 1.069 → 76.4%
+- Wave 22: 1.099 → 78.5%
+- Wave 23: 1.118 → 79.8%
+
+Вывод: Sharpe 1.4 с одним условием на overnight returns недостижим.
+Ограничения: single condition, overnight-only, no ML, long-only.
