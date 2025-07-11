@@ -1,0 +1,229 @@
+=== WAVE 1 TOP 3 RESULTS ===
+
+Condition: Close > SMA(200)
+Sharpe Ratio: 0.9575
+Trades: 3413
+Total Return: 309.60%
+----------------------------------------
+
+Condition: Daily Return < 2.0%
+Sharpe Ratio: 0.8783
+Trades: 4265
+Total Return: 459.22%
+----------------------------------------
+
+Condition: Close > SMA(100)
+Sharpe Ratio: 0.8123
+Trades: 3274
+Total Return: 225.26%
+----------------------------------------
+
+
+=== WAVE 2 TOP 3 RESULTS ===
+
+Condition: Daily Return < 2.5%
+Sharpe Ratio: 0.8907
+Trades: 4376
+Total Return: 482.35%
+----------------------------------------
+
+Condition: Daily Return < 3.0%
+Sharpe Ratio: 0.8664
+Trades: 4430
+Total Return: 462.73%
+----------------------------------------
+
+Condition: Daily Return < 1.5%
+Sharpe Ratio: 0.8351
+Trades: 4064
+Total Return: 408.75%
+----------------------------------------
+
+
+=== WAVE 3 TOP 3 RESULTS ===
+
+Condition: Overnight Gap < 0.5%
+Sharpe Ratio: 1.0559
+Trades: 3904
+Total Return: 555.84%
+----------------------------------------
+
+Condition: Overnight Gap < 0.0%
+Sharpe Ratio: 1.0012
+Trades: 1994
+Total Return: 384.79%
+----------------------------------------
+
+Condition: Gap Down Opening
+Sharpe Ratio: 1.0012
+Trades: 1994
+Total Return: 384.79%
+----------------------------------------
+
+
+=== WAVE 4 TOP 3 RESULTS ===
+
+Condition: Overnight Gap < 0.3%
+Sharpe Ratio: 1.1252
+Trades: 3415
+Total Return: 574.36%
+----------------------------------------
+
+Condition: Overnight Gap < 0.2%
+Sharpe Ratio: 1.0997
+Trades: 3064
+Total Return: 518.55%
+----------------------------------------
+
+Condition: Overnight Gap < 0.1%
+Sharpe Ratio: 1.0821
+Trades: 2586
+Total Return: 474.80%
+----------------------------------------
+
+
+=== WAVE 5 TOP 3 RESULTS ===
+
+Condition: Overnight Gap < 0.36%
+Sharpe Ratio: 1.1501
+Trades: 3602
+Total Return: 613.01%
+----------------------------------------
+
+Condition: Overnight Gap < 0.350%
+Sharpe Ratio: 1.1337
+Trades: 3578
+Total Return: 593.98%
+----------------------------------------
+
+Condition: Overnight Gap < 0.270%
+Sharpe Ratio: 1.1335
+Trades: 3321
+Total Return: 577.52%
+----------------------------------------
+
+
+=== WAVE 6 TOP 3 RESULTS ===
+
+Condition: Close in Bottom 35% of Daily Range
+Sharpe Ratio: 0.5499
+Trades: 1376
+Total Return: 148.81%
+----------------------------------------
+
+Condition: Close in Bottom 40% of Daily Range
+Sharpe Ratio: 0.4998
+Trades: 1567
+Total Return: 141.93%
+----------------------------------------
+
+Condition: Prev Candle Body > 0.5%
+Sharpe Ratio: 0.4035
+Trades: 2573
+Total Return: 149.36%
+----------------------------------------
+
+
+=== WAVE 7 TOP 3 RESULTS ===
+
+Condition: Overnight Gap < 0.360%
+Sharpe Ratio: 1.1501
+Trades: 3602
+Total Return: 613.01%
+----------------------------------------
+
+Condition: Overnight Gap < 0.350%
+Sharpe Ratio: 1.1337
+Trades: 3578
+Total Return: 593.98%
+----------------------------------------
+
+Condition: Overnight Gap < 0.370%
+Sharpe Ratio: 1.1311
+Trades: 3636
+Total Return: 599.67%
+----------------------------------------
+
+
+=== WAVE 8 TOP 3 RESULTS ===
+
+Condition: 3d Gap Sum < 0.5%
+Sharpe Ratio: 0.9520
+Trades: 3326
+Total Return: 469.27%
+----------------------------------------
+
+Condition: Gap Z-Score < 0
+Sharpe Ratio: 0.9430
+Trades: 2337
+Total Return: 352.89%
+----------------------------------------
+
+Condition: Gap Z-Score < 0.5
+Sharpe Ratio: 0.9325
+Trades: 3115
+Total Return: 403.87%
+----------------------------------------
+
+
+=== WAVE 9 TOP 3 RESULTS ===
+
+Condition: Overnight Gap < 0.3600%
+Sharpe Ratio: 1.1501
+Trades: 3602
+Total Return: 613.01%
+----------------------------------------
+
+Condition: Overnight Gap < 0.3550%
+Sharpe Ratio: 1.1450
+Trades: 3592
+Total Return: 606.67%
+----------------------------------------
+
+Condition: Overnight Gap < 0.3650%
+Sharpe Ratio: 1.1312
+Trades: 3623
+Total Return: 598.60%
+----------------------------------------
+
+
+=== WAVE 10 TOP 3 RESULTS ===
+
+Condition: Overnight Gap < 0.36100%
+Sharpe Ratio: 1.1473
+Trades: 3606
+Total Return: 610.67%
+----------------------------------------
+
+Condition: Overnight Gap < 0.36200%
+Sharpe Ratio: 1.1463
+Trades: 3609
+Total Return: 609.71%
+----------------------------------------
+
+Condition: Overnight Gap < 0.35800%
+Sharpe Ratio: 1.1421
+Trades: 3600
+Total Return: 604.50%
+----------------------------------------
+
+
+=== WAVE 11 TOP 3 RESULTS ===
+
+Condition: Overnight Gap < 0.360700%
+Sharpe Ratio: 1.1510
+Trades: 3605
+Total Return: 614.36%
+----------------------------------------
+
+Condition: Overnight Gap < 0.360800%
+Sharpe Ratio: 1.1510
+Trades: 3605
+Total Return: 614.36%
+----------------------------------------
+
+Condition: Overnight Gap < 0.360900%
+Sharpe Ratio: 1.1473
+Trades: 3606
+Total Return: 610.67%
+----------------------------------------

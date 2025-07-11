@@ -1,0 +1,17 @@
+FINAL BEST STRATEGY RESULTS
+============================================================
+
+Condition: Overnight Gap < 0.3607%
+Sharpe Ratio: 1.1510
+Number of Trades: 3605
+Total Return: 614.36%
+CAGR: 11.55%
+Maximum Drawdown: -10.42%
+Win Rate: 56.01%
+
+Meets criteria: NO
+
+Note: After extensive testing of 700+ conditions across 11 waves,
+this was the best single condition found. While it achieves an
+impressive Sharpe Ratio of 1.1510 with 3605 trades,
+it falls just short of the 1.2 Sharpe Ratio target.
