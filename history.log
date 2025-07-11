@@ -19,3 +19,6 @@ Wave6 | Condition: EMA_RATIO | Params: {'short': 10, 'long': 200, 'delta': 0.015
 Wave7 | Condition: EMA_BASKET | Params: {'delta': 0.002} | Sharpe: 0.671 | Trades: 5852 | TotalRet: 614.23%
 Wave7 | Condition: EMA_BASKET | Params: {'delta': 0.003} | Sharpe: 0.668 | Trades: 5773 | TotalRet: 596.06%
 Wave7 | Condition: EMA_BASKET | Params: {'delta': 0.001} | Sharpe: 0.666 | Trades: 5916 | TotalRet: 613.33%
+Wave8 | Condition: TREND_STRENGTH | Params: {'short': 20, 'long': 200, 'delta': 0.01} | Sharpe: 0.950 | Trades: 5855 | TotalRet: 1303.21%
+Wave8 | Condition: TREND_STRENGTH | Params: {'short': 15, 'long': 150, 'delta': 0.01} | Sharpe: 0.908 | Trades: 5527 | TotalRet: 1021.82%
+Wave8 | Condition: TREND_STRENGTH | Params: {'short': 10, 'long': 200, 'delta': 0.015} | Sharpe: 0.904 | Trades: 5596 | TotalRet: 1031.42%
