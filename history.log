@@ -1,0 +1,3 @@
+[2025-07-11 15:04:41] Wave1 | rsi5_lt_20 | Sharpe=0.633 | Trades=460
+[2025-07-11 15:04:41] Wave1 | rsi5_lt_25 | Sharpe=0.622 | Trades=635
+[2025-07-11 15:04:41] Wave1 | close_lt_sma5 | Sharpe=0.591 | Trades=1864
