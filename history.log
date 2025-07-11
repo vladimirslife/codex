@@ -31,3 +31,6 @@
 [2025-07-11 15:19:01] Wave11 | dpo30_gt0 | Sharpe=0.587 | Trades=2984
 [2025-07-11 15:19:01] Wave11 | ha_red | Sharpe=0.503 | Trades=2007
 [2025-07-11 15:19:01] Wave11 | macd_hist_lt0 | Sharpe=0.476 | Trades=2131
+[2025-07-11 15:20:04] Wave12 | close_lt_med5 | Sharpe=0.592 | Trades=1613
+[2025-07-11 15:20:04] Wave12 | close_lt_med10 | Sharpe=0.419 | Trades=1764
+[2025-07-11 15:20:04] Wave12 | close_gt_med20 | Sharpe=0.352 | Trades=2831
