@@ -1,0 +1,6 @@
+Wave1 | Condition: PRICE_GT_EMA | Params: {'period': 190} | Sharpe: 0.891 | Trades: 6192 | TotalRet: 1099.28%
+Wave1 | Condition: PRICE_GT_EMA | Params: {'period': 200} | Sharpe: 0.884 | Trades: 6224 | TotalRet: 1094.75%
+Wave1 | Condition: PRICE_GT_EMA | Params: {'period': 180} | Sharpe: 0.877 | Trades: 6153 | TotalRet: 1050.55%
+Wave2 | Condition: MACD_POS | Params: {'fast': 16, 'slow': 26} | Sharpe: 0.575 | Trades: 5500 | TotalRet: 477.13%
+Wave2 | Condition: MACD_POS | Params: {'fast': 12, 'slow': 32} | Sharpe: 0.574 | Trades: 5524 | TotalRet: 476.92%
+Wave2 | Condition: MACD_POS | Params: {'fast': 16, 'slow': 32} | Sharpe: 0.559 | Trades: 5577 | TotalRet: 464.29%
