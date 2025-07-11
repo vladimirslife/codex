@@ -31,3 +31,6 @@ Wave10 | Condition: TREND_Z | Params: {'short': 20, 'long': 200, 'window': 100, 
 Wave11 | Condition: DEV_VOL_RATIO | Params: {'long': 200, 'atr': 20, 'k': 1.5} | Sharpe: 0.770 | Trades: 5452 | TotalRet: 683.46%
 Wave11 | Condition: DEV_VOL_RATIO | Params: {'long': 200, 'atr': 14, 'k': 1.5} | Sharpe: 0.764 | Trades: 5459 | TotalRet: 675.13%
 Wave11 | Condition: DEV_VOL_RATIO | Params: {'long': 200, 'atr': 20, 'k': 1.2} | Sharpe: 0.717 | Trades: 5613 | TotalRet: 631.05%
+Wave12 | Condition: VOL_DEV_RATIO | Params: {'long': 200, 'atr': 14, 'k': 2.0} | Sharpe: 0.798 | Trades: 5167 | TotalRet: 672.15%
+Wave12 | Condition: VOL_DEV_RATIO | Params: {'long': 200, 'atr': 20, 'k': 1.5} | Sharpe: 0.770 | Trades: 5452 | TotalRet: 683.46%
+Wave12 | Condition: VOL_DEV_RATIO | Params: {'long': 200, 'atr': 20, 'k': 2.0} | Sharpe: 0.768 | Trades: 5178 | TotalRet: 634.90%
