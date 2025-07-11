@@ -28,3 +28,6 @@
 [2025-07-11 15:17:35] Wave10 | trix30_gt_0.000 | Sharpe=0.834 | Trades=3362
 [2025-07-11 15:17:35] Wave10 | trix15_gt_0.000 | Sharpe=0.663 | Trades=3107
 [2025-07-11 15:17:35] Wave10 | trix20_gt_0.000 | Sharpe=0.612 | Trades=3157
+[2025-07-11 15:19:01] Wave11 | dpo30_gt0 | Sharpe=0.587 | Trades=2984
+[2025-07-11 15:19:01] Wave11 | ha_red | Sharpe=0.503 | Trades=2007
+[2025-07-11 15:19:01] Wave11 | macd_hist_lt0 | Sharpe=0.476 | Trades=2131
