@@ -7,3 +7,6 @@ Wave2 | Condition: MACD_POS | Params: {'fast': 16, 'slow': 32} | Sharpe: 0.559 |
 Wave3 | Condition: EMA_CROSS | Params: {'short': 35, 'long': 100} | Sharpe: 0.928 | Trades: 6087 | TotalRet: 1285.31%
 Wave3 | Condition: EMA_CROSS | Params: {'short': 25, 'long': 150} | Sharpe: 0.919 | Trades: 6157 | TotalRet: 1298.79%
 Wave3 | Condition: EMA_CROSS | Params: {'short': 40, 'long': 100} | Sharpe: 0.903 | Trades: 6083 | TotalRet: 1242.38%
+Wave4 | Condition: EMA_GAP | Params: {'short': 25, 'long': 150, 'delta': 0.002} | Sharpe: 0.950 | Trades: 6044 | TotalRet: 1345.30%
+Wave4 | Condition: EMA_GAP | Params: {'short': 20, 'long': 200, 'delta': 0.01} | Sharpe: 0.950 | Trades: 5855 | TotalRet: 1303.21%
+Wave4 | Condition: EMA_GAP | Params: {'short': 30, 'long': 150, 'delta': 0.005} | Sharpe: 0.930 | Trades: 5897 | TotalRet: 1245.69%
