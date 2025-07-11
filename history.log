@@ -49,3 +49,12 @@ Wave16 | Condition: VWAP_TREND | Params: {'period': 200, 'k': 0.005} | Sharpe: 0
 Wave17 | Condition: VWAP_ANCHORED | Params: {'anchor': 200, 'k': -0.015} | Sharpe: 0.926 | Trades: 6493 | TotalRet: 1371.21%
 Wave17 | Condition: VWAP_ANCHORED | Params: {'anchor': 200, 'k': -0.01} | Sharpe: 0.918 | Trades: 6351 | TotalRet: 1278.10%
 Wave17 | Condition: VWAP_ANCHORED | Params: {'anchor': 150, 'k': -0.015} | Sharpe: 0.901 | Trades: 6558 | TotalRet: 1279.56%
+Wave18 | Condition: VWAP_ZSCORE | Params: {'period': 50, 'k': -0.5} | Sharpe: 0.464 | Trades: 3017 | TotalRet: 479.34%
+Wave18 | Condition: VOL_FLOW_INDEX | Params: {'period': 21, 'k': 0.45} | Sharpe: 0.463 | Trades: 5634 | TotalRet: 398.25%
+Wave18 | Condition: VOL_FLOW_INDEX | Params: {'period': 28, 'k': 0.45} | Sharpe: 0.418 | Trades: 5814 | TotalRet: 354.02%
+Wave19 | Condition: VWAP_ACCEL | Params: {'period': 100, 'k': 0.0005} | Sharpe: 0.655 | Trades: 7557 | TotalRet: 1219.80%
+Wave19 | Condition: VWAP_ACCEL | Params: {'period': 20, 'k': 0.0005} | Sharpe: 0.636 | Trades: 6202 | TotalRet: 932.07%
+Wave19 | Condition: VWAP_ACCEL | Params: {'period': 50, 'k': 0.0005} | Sharpe: 0.633 | Trades: 7123 | TotalRet: 1047.54%
+Wave20 | Condition: MOMENTUM_DIV | Params: {'short': 5, 'long': 100, 'k': 0.0} | Sharpe: 0.765 | Trades: 5697 | TotalRet: 872.62%
+Wave20 | Condition: MOMENTUM_DIV | Params: {'short': 5, 'long': 100, 'k': -0.02} | Sharpe: 0.762 | Trades: 4966 | TotalRet: 723.25%
+Wave20 | Condition: MOMENTUM_DIV | Params: {'short': 5, 'long': 100, 'k': -0.01} | Sharpe: 0.760 | Trades: 5332 | TotalRet: 783.31%
