@@ -41,13 +41,14 @@ max3 = prev.max(axis=1)
 range3 = max3 - prev.min(axis=1)
 
 # keep numpy arrays for speed
-ret_arr = base["qqq"].values.astype(float)
-max3_arr = max3.values.astype(float)
+ret_arr   = base["qqq"].values.astype(float)
+max3_arr  = max3.values.astype(float)
 range3_arr = range3.values.astype(float)
-mask_valid = np.isfinite(max3_arr)
+# допустимы только строки, где известен и max3, и доходность
+mask_valid = np.isfinite(max3_arr) & np.isfinite(ret_arr)
 
 BEST = []
-N_TOTAL = 100_000
+N_TOTAL = 300_000  # расширенный поиск
 log_lo, log_hi = math.log10(0.0020), math.log10(0.0038)
 start = time.time()
 for _ in range(N_TOTAL):
@@ -57,11 +58,22 @@ for _ in range(N_TOTAL):
         comp = alpha * max3_arr + (1 - alpha) * range3_arr
         thr = 10 ** RND.uniform(log_lo, log_hi)
         cmp_op = "<"
-    else:  # compB variant
+    elif RND.random() < 0.8:  # compB variant (70% of remaining)
         gamma = RND.uniform(-0.5, 0.5)
         comp = max3_arr - gamma * range3_arr
         thr = 10 ** RND.uniform(log_lo, log_hi)
         cmp_op = "<" if RND.random() < 0.7 else ">"
+    else:  # compC & compD variants  (20%)
+        if RND.random() < 0.5:
+            # compC: ratio
+            comp = max3_arr / (range3_arr + 1e-6)
+            gamma = None; alpha = None
+        else:
+            delta = RND.uniform(0.0, 1.0)
+            comp = np.log(max3_arr + 1e-6) - delta * np.log(range3_arr + 1e-6)
+            gamma = None; alpha = None
+        thr = 10 ** RND.uniform(log_lo, log_hi)
+        cmp_op = "<" if RND.random() < 0.8 else ">"
     # construct signal
     if cmp_op == "<":
         signal = (comp < thr) & mask_valid
@@ -74,8 +86,13 @@ for _ in range(N_TOTAL):
     std = strat.std()
     if std == 0:
         continue
-    sharpe = (strat.mean() - DAILY_RF) * 252 / (std * math.sqrt(252))
-    BEST.append((sharpe, trades, alpha if 'alpha' in locals() else None, gamma if 'gamma' in locals() else None, thr, cmp_op))
+    mean_ret = strat.mean()
+    if not math.isfinite(mean_ret):
+        continue
+    sharpe = (mean_ret - DAILY_RF) * 252 / (std * math.sqrt(252))
+    if not math.isfinite(sharpe):
+        continue
+    BEST.append((sharpe, trades, locals().get('alpha'), locals().get('gamma'), thr, cmp_op))
 
 BEST.sort(reverse=True, key=lambda x: x[0])
 
