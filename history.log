@@ -37,3 +37,7 @@
 2025-07-11T16:09:23.098890 | Wave 12 | rank 1 | Sharpe=0.3972 | Trades=3005 | Condition: SPY_daily_ret_prev > -0.0020
 2025-07-11T16:09:23.098902 | Wave 12 | rank 2 | Sharpe=0.3723 | Trades=2758 | Condition: SPY_daily_ret_prev > -0.0010
 2025-07-11T16:09:23.098906 | Wave 12 | rank 3 | Sharpe=0.3630 | Trades=2142 | Condition: SPY_daily_ret_prev > 0.0010
+2025-07-11T16:15:26.555013 | Wave 13 | rank 1 | Sharpe=0.6392 | Trades=4512 | Condition: abs(gap)/ATR14_prev < 0.05
+2025-07-11T16:15:26.555040 | Wave 13 | rank 2 | Sharpe=0.6392 | Trades=4512 | Condition: abs(gap)/ATR14_prev < 0.10
+2025-07-11T16:15:26.555044 | Wave 13 | rank 3 | Sharpe=0.6392 | Trades=4512 | Condition: abs(gap)/ATR14_prev < 0.15
+2025-07-11T16:15:58.932012 | Wave 14 | best | Sharpe=1.2363 | Trades=3031 | Condition: gap + -0.0008*weekday < 0.0004
