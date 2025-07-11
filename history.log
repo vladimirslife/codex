@@ -48,3 +48,4 @@
 2025-07-11T16:18:56.401354 | Wave 17 | best | Sharpe=1.2677 | Trades=3346 | Condition: gap - -0.216*prev_gap - -0.0008*isMon < 0.0030
 2025-07-11T16:19:53.650175 | Wave 18 | best | Sharpe=1.2696 | Trades=3348 | Condition: gap - -0.21750*prev_gap - -0.00075*isMon < 0.00300
 2025-07-11T16:20:49.154480 | Wave 19 | best | Sharpe=1.2696 | Trades=3348 | Condition: gap - -0.21775*prev_gap - -0.00075*isMon < 0.00300
+2025-07-11T16:22:32.248252 | Wave 21 | best | Sharpe=1.2107 | Trades=3118 | Condition: zScore_N20<0.50 beta=-0.230 delta=-0.0005
