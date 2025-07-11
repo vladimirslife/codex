@@ -25,3 +25,6 @@
 [2025-07-11 15:15:58] Wave9 | sto5_lt_30 | Sharpe=0.595 | Trades=1081
 [2025-07-11 15:15:58] Wave9 | sto14_lt_80 | Sharpe=0.590 | Trades=2674
 [2025-07-11 15:15:58] Wave9 | sto9_lt_80 | Sharpe=0.516 | Trades=2778
+[2025-07-11 15:17:35] Wave10 | trix30_gt_0.000 | Sharpe=0.834 | Trades=3362
+[2025-07-11 15:17:35] Wave10 | trix15_gt_0.000 | Sharpe=0.663 | Trades=3107
+[2025-07-11 15:17:35] Wave10 | trix20_gt_0.000 | Sharpe=0.612 | Trades=3157
