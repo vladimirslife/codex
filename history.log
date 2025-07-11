@@ -37,3 +37,6 @@ Wave12 | Condition: VOL_DEV_RATIO | Params: {'long': 200, 'atr': 20, 'k': 2.0} |
 Wave13 | Condition: RSI_EMA_RATIO | Params: {'rsi_period': 21, 'ema_period': 200, 'k': 1.0} | Sharpe: 0.406 | Trades: 4592 | TotalRet: 268.59%
 Wave13 | Condition: STOCH_TREND | Params: {'stoch_period': 21, 'ema_period': 200, 'k': 0.0} | Sharpe: 0.388 | Trades: 4810 | TotalRet: 262.06%
 Wave13 | Condition: RSI_EMA_RATIO | Params: {'rsi_period': 21, 'ema_period': 100, 'k': 1.0} | Sharpe: 0.334 | Trades: 4735 | TotalRet: 229.61%
+Wave14 | Condition: LR_SLOPE | Params: {'period': 100, 'k': 0.002} | Sharpe: 0.816 | Trades: 5728 | TotalRet: 1079.87%
+Wave14 | Condition: LR_SLOPE | Params: {'period': 100, 'k': 0.001} | Sharpe: 0.795 | Trades: 5748 | TotalRet: 1029.05%
+Wave14 | Condition: LR_SLOPE | Params: {'period': 100, 'k': 0.0} | Sharpe: 0.793 | Trades: 5773 | TotalRet: 1027.71%
