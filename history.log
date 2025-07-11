@@ -227,3 +227,74 @@ Sharpe Ratio: 1.1473
 Trades: 3606
 Total Return: 610.67%
 ----------------------------------------
+
+
+=== WAVE 12 TOP 3 RESULTS ===
+
+Condition: QQQ Gap < 0.3606500%
+Sharpe Ratio: 1.1625
+Trades: 3614
+Total Return: 631.66%
+----------------------------------------
+
+Condition: QQQ Gap < 0.3607000%
+Sharpe Ratio: 1.1625
+Trades: 3614
+Total Return: 631.66%
+----------------------------------------
+
+Condition: QQQ Gap < 0.3608000%
+Sharpe Ratio: 1.1625
+Trades: 3614
+Total Return: 631.66%
+----------------------------------------
+
+
+=== WAVE 13 TOP 3 RESULTS ===
+
+Condition: QQQ Gap < 0.4% & SPY Gap < 0.2%
+Sharpe Ratio: 1.1771
+Trades: 3208
+Total Return: 616.27%
+----------------------------------------
+
+Condition: QQQ Gap < 0.36300%
+Sharpe Ratio: 1.1638
+Trades: 3621
+Total Return: 633.55%
+----------------------------------------
+
+Condition: QQQ Gap < 0.36000%
+Sharpe Ratio: 1.1616
+Trades: 3611
+Total Return: 630.28%
+----------------------------------------
+
+
+=== WAVE 14 FINAL TOP 3 RESULTS ===
+
+Condition: SPY Gap < 0.19400%
+Sharpe Ratio: 1.1768
+Trades: 3261
+Total Return: 628.36%
+----------------------------------------
+
+Condition: SPY Gap < 0.18600%
+Sharpe Ratio: 1.1695
+Trades: 3223
+Total Return: 618.54%
+----------------------------------------
+
+Condition: SPY Gap < 0.19300%
+Sharpe Ratio: 1.1690
+Trades: 3256
+Total Return: 619.86%
+----------------------------------------
+
+
+=== FINAL SUMMARY: 20% IMPROVEMENT ATTEMPT ===
+Target: Sharpe >= 1.38 (20% improvement from 1.151)
+Result: NOT ACHIEVED
+Best found: SPY Gap < 0.194%, Sharpe 1.177 (2.3% improvement)
+Total conditions tested: 850+
+Conclusion: 20% improvement unattainable with single conditions
