@@ -4,3 +4,4 @@
 2025-07-11T16:28:08.045287	Wave4	Sharpe=1.3186,N=2840,ind=comp_w_099,thr=0.003227 | Sharpe=1.3051,N=2825,ind=comp_w_083,thr=0.003168 | Sharpe=1.3047,N=2683,ind=comp_w_033,thr=0.002799
 2025-07-11T16:29:14.656486	Wave5	Sharpe=1.3195,N=2677,alpha=0.9524,thr=0.002793 | Sharpe=1.3188,N=2872,alpha=0.9475,thr=0.003298 | Sharpe=1.3188,N=2801,alpha=0.9039,thr=0.003106
 2025-07-11T16:30:18.609640	Wave6	Sharpe=1.3352,N=2827,alpha=0.8613,cmp=<,thr=0.003204 | Sharpe=1.3300,N=2836,alpha=0.8624,cmp=<,thr=0.003217 | Sharpe=1.3291,N=2670,alpha=0.8900,cmp=<,thr=0.002794
+2025-07-11T16:31:32.116892	Wave7	Sharpe=nan,N=2569,gamma=-0.4228,cmp=>,thr=0.002452 | Sharpe=nan,N=3035,alpha=0.7807,cmp=<,thr=0.003737 | Sharpe=nan,N=2592,alpha=0.7626,cmp=<,thr=0.002742
