@@ -1,0 +1,5 @@
+
+[2025-07-11T16:05:48.236930] Wave 1 – топ 3 результатов
+1) Sharpe=7.8094  Trades=3216  Условие: previous_overnight_return > -0.1500%
+2) Sharpe=7.4150  Trades=3404  Условие: previous_overnight_return > -0.2000%
+3) Sharpe=7.0305  Trades=3549  Условие: previous_overnight_return > -0.2500%
