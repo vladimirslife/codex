@@ -13,3 +13,6 @@
 [2025-07-11 15:10:34] Wave5 | gap_norm10_lt_-0.00 | Sharpe=1.006 | Trades=1991
 [2025-07-11 15:10:34] Wave5 | gap_norm5_lt_-0.00 | Sharpe=1.001 | Trades=1992
 [2025-07-11 15:10:34] Wave5 | gap_norm5_lt_-0.05 | Sharpe=0.962 | Trades=1660
+[2025-07-11 15:11:59] Wave6 | weekday_le_3 | Sharpe=0.706 | Trades=3618
+[2025-07-11 15:11:59] Wave6 | day_ge_3 | Sharpe=0.682 | Trades=4242
+[2025-07-11 15:11:59] Wave6 | weekday_le_2 | Sharpe=0.681 | Trades=2705
