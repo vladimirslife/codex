@@ -45,3 +45,4 @@
 2025-07-11T16:17:01.439856 | Wave 15 | rank 2 | Sharpe=1.2182 | Trades=3017 | Condition: (gap - -0.15*prev_gap) < 0.0020
 2025-07-11T16:17:01.439860 | Wave 15 | rank 3 | Sharpe=1.2113 | Trades=3207 | Condition: (gap - -0.25*prev_gap) < 0.0025
 2025-07-11T16:17:49.144395 | Wave 16 | best | Sharpe=0.8544 | Trades=3246 | Condition: |gap - -0.250*prev_gap| < 0.0045
+2025-07-11T16:18:56.401354 | Wave 17 | best | Sharpe=1.2677 | Trades=3346 | Condition: gap - -0.216*prev_gap - -0.0008*isMon < 0.0030
