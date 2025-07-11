@@ -58,3 +58,12 @@ Wave19 | Condition: VWAP_ACCEL | Params: {'period': 50, 'k': 0.0005} | Sharpe: 0
 Wave20 | Condition: MOMENTUM_DIV | Params: {'short': 5, 'long': 100, 'k': 0.0} | Sharpe: 0.765 | Trades: 5697 | TotalRet: 872.62%
 Wave20 | Condition: MOMENTUM_DIV | Params: {'short': 5, 'long': 100, 'k': -0.02} | Sharpe: 0.762 | Trades: 4966 | TotalRet: 723.25%
 Wave20 | Condition: MOMENTUM_DIV | Params: {'short': 5, 'long': 100, 'k': -0.01} | Sharpe: 0.760 | Trades: 5332 | TotalRet: 783.31%
+Wave21 | Condition: MOM_QUALITY | Params: {'period': 100, 'k': 0.001} | Sharpe: 0.754 | Trades: 5267 | TotalRet: 856.58%
+Wave21 | Condition: MOM_QUALITY | Params: {'period': 100, 'k': 0.0} | Sharpe: 0.749 | Trades: 5772 | TotalRet: 940.88%
+Wave21 | Condition: MOM_QUALITY | Params: {'period': 100, 'k': 0.002} | Sharpe: 0.694 | Trades: 5131 | TotalRet: 722.74%
+Wave22 | Condition: STRUCT_BREAK | Params: {'period': 50, 'k': 0.01} | Sharpe: 0.737 | Trades: 5811 | TotalRet: 725.11%
+Wave22 | Condition: STRUCT_BREAK | Params: {'period': 50, 'k': 0.0} | Sharpe: 0.724 | Trades: 5954 | TotalRet: 721.05%
+Wave22 | Condition: STRUCT_BREAK | Params: {'period': 50, 'k': 0.02} | Sharpe: 0.710 | Trades: 5618 | TotalRet: 658.80%
+Wave23 | Condition: PRICE_ACTION | Params: {'period': 20, 'k': 0.1} | Sharpe: 0.585 | Trades: 5657 | TotalRet: 953.33%
+Wave23 | Condition: PRICE_ACTION | Params: {'period': 10, 'k': 0.0} | Sharpe: 0.538 | Trades: 3348 | TotalRet: 558.29%
+Wave23 | Condition: PRICE_ACTION | Params: {'period': 10, 'k': 0.1} | Sharpe: 0.536 | Trades: 5274 | TotalRet: 750.43%
