@@ -51,3 +51,8 @@
 2025-07-11T16:22:32.248252 | Wave 21 | best | Sharpe=1.2107 | Trades=3118 | Condition: zScore_N20<0.50 beta=-0.230 delta=-0.0005
 2025-07-11T16:29:52.131851 | Wave 29 | best | Sharpe=1.0039 | Trades=3535 | alpha=0.0 beta=1.0 fast=3 slow=30 thr=0.002
 2025-07-11T17:35:36.085779 | Wave 35 | best | Sharpe=1.2696 | Trades=3348 | beta=-0.21780 delta=-0.000750 thr=0.003000
+2025-07-11T17:37:51.964666 | Wave 36 | best | Sharpe=0.7784 | Trades=4443 | beta=-0.21 N=20 thr=0.25
+2025-07-11T17:38:43.287074 | Wave 38 | best | Sharpe=1.1896 | Trades=3026 | alpha=-0.2 N=30 k=0.5 gamma=0.001 thr=0.3
+2025-07-11T17:39:06.846450 | Wave 39 | best | Sharpe=1.2485 | Trades=3325 | alpha=-0.3 N1=30 N2=30 k=0.4 gamma=0.0015 thr=0.4
+2025-07-11T17:39:29.376297 | Wave 40 | best | Sharpe=1.2971 | Trades=3002 | beta=-0.23 gamma=0.0015 thr_low=0.0015 thr_high=0.0035
+2025-07-11T17:39:50.992349 | Wave 41 | best | Sharpe=1.3142 | Trades=3049 | beta=-0.23 gamma=0.0013 thr_low=0.0018 thr_high=0.0032
