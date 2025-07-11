@@ -22,3 +22,6 @@
 [2025-07-11 15:14:27] Wave8 | close_lt_clomin5_m010 | Sharpe=0.704 | Trades=2117
 [2025-07-11 15:14:27] Wave8 | close_lt_clomin5_m005 | Sharpe=0.696 | Trades=1516
 [2025-07-11 15:14:27] Wave8 | open_lt_clomin5_m010 | Sharpe=0.648 | Trades=1971
+[2025-07-11 15:15:58] Wave9 | sto5_lt_30 | Sharpe=0.595 | Trades=1081
+[2025-07-11 15:15:58] Wave9 | sto14_lt_80 | Sharpe=0.590 | Trades=2674
+[2025-07-11 15:15:58] Wave9 | sto9_lt_80 | Sharpe=0.516 | Trades=2778
