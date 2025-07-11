@@ -25,3 +25,6 @@ Wave8 | Condition: TREND_STRENGTH | Params: {'short': 10, 'long': 200, 'delta': 
 Wave9 | Condition: EMA_SPREAD | Params: {'short': 15, 'long': 200, 'delta': 0.008} | Sharpe: 0.907 | Trades: 5947 | TotalRet: 1175.76%
 Wave9 | Condition: EMA_SPREAD | Params: {'short': 10, 'long': 200, 'delta': 0.016} | Sharpe: 0.899 | Trades: 5539 | TotalRet: 1009.98%
 Wave9 | Condition: EMA_SPREAD | Params: {'short': 15, 'long': 200, 'delta': 0.012} | Sharpe: 0.892 | Trades: 5756 | TotalRet: 1096.01%
+Wave10 | Condition: REL_MOM_RATIO | Params: {'short': 5, 'long': 50, 'thr': 1.0} | Sharpe: -0.011 | Trades: 853 | TotalRet: 85.58%
+Wave10 | Condition: VOL_SCALED_MOM | Params: {'period': 20, 'k': 1.5} | Sharpe: -0.020 | Trades: 3739 | TotalRet: 77.35%
+Wave10 | Condition: TREND_Z | Params: {'short': 20, 'long': 200, 'window': 100, 'k': 1} | Sharpe: -0.149 | Trades: 2348 | TotalRet: 54.33%
