@@ -16,3 +16,6 @@
 [2025-07-11 15:11:59] Wave6 | weekday_le_3 | Sharpe=0.706 | Trades=3618
 [2025-07-11 15:11:59] Wave6 | day_ge_3 | Sharpe=0.682 | Trades=4242
 [2025-07-11 15:11:59] Wave6 | weekday_le_2 | Sharpe=0.681 | Trades=2705
+[2025-07-11 15:13:27] Wave7 | cum4_lt_-1bp | Sharpe=0.538 | Trades=1174
+[2025-07-11 15:13:27] Wave7 | cum3_lt_-1bp | Sharpe=0.465 | Trades=1123
+[2025-07-11 15:13:27] Wave7 | cum6_lt_-1bp | Sharpe=0.461 | Trades=1229
